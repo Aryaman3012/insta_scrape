@@ -1,11 +1,1 @@
-# Instagram Login Credentials
-INSTAGRAM_USERNAME=reddit_stories1098
-INSTAGRAM_PASSWORD=aryaman
 
-# Target page to scrape (e.g., https://www.instagram.com/explore/reels/ or a specific user's profile)
-TARGET_URL=https://www.instagram.com/redditor.boy/reels/
-
-# Output settings
-OUTPUT_FILE=scraped_reels.csv
-SCROLL_DELAY=2000
-MAX_SCROLLS=50 
