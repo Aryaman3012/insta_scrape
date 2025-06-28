@@ -1,0 +1,33 @@
+{
+  "name": "insta-reels-scraper",
+  "version": "1.0.0",
+  "description": "Instagram reels scraper for sorting content",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "parse": "ts-node src/parseHTML.ts"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "jsdom": "^23.0.1",
+    "puppeteer": "^21.6.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.5",
+    "js-beautify": "^1.15.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "instagram",
+    "scraper",
+    "reels",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
